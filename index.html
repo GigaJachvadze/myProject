@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mainMobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/mainDesktop.css">
+    <title>My WebSite</title>
+</head>
+<body onload="update()">
+
+    <div id="main_show">
+        <h1 class="text" id="Selected_City"></h1>
+        <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="weatherImg" id="main_img">
+
+        <p class="text_main" id="temperature"></p>
+        <p class="text" id="humidity"></p>
+        <p class="text" id="pressure"></p>
+        <p class="text" id="wind"></p>
+    </div>
+
+    <div id="Selector_div">
+        <select name="citySelector" id="Selector" onchange="selectorChanged(document.getElementById('Selector').value)"></select>
+    </div>
+
+    <script src="js/citySelector.js"></script>
+    <script src="js/dataFetcher.js"></script>
+    <script src="js/Main.js"></script>
+</body>
+</html>
