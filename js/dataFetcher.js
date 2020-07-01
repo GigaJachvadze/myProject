@@ -5,7 +5,7 @@ let mainJson;
 
 function GET_Data(cityName)
 {
-    let Client = "http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&" + unit + "&appid=" + apiKey;
+    let Client = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&" + unit + "&appid=" + apiKey;
 
     return aFetch(Client)
 }
