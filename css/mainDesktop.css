@@ -46,6 +46,7 @@ body
     margin-left: auto;
     width: 50%;
     height: 10%;
+    clear: both;
 }
 
 #next, #prev
@@ -74,17 +75,9 @@ body
     left: -5%;
 }
 
-#prev:hover, #next:hover 
+#prev:hover, #next:hover
 {
     background-color: rgba(150,150,150,0.8);
-}
-
-#asd
-{
-    width: 100px;
-    height: 100px;
-
-    background-color: whitesmoke;
 }
 
 .carousel_item

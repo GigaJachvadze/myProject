@@ -42,9 +42,9 @@ function update()
             case 'Senaki': cityH.innerHTML = "სენაკი";
             break;
         }
-    })()
 
-    slidesUpdate();
+        slidesUpdate();
+    })()
 }
 
 function slidesUpdate()
@@ -275,13 +275,14 @@ function showSlides()
 
 function selectMain(index)
 {
-    mainSelected = index + 1;
+    mainSelected = cities.findIndex(elem => elem === citiesWithoutMain[index]);
 
     for (let i = 0; i < slides.length; i++)
     {
         slides[i].div.style.display = "none";
     }
 
+    slidesUpdate();
     update();
     showSlides();
 }

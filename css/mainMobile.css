@@ -42,6 +42,63 @@ body
     margin-left: auto;
 }
 
+#carousel_main
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20vh;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 10%;
+    clear: both;
+}
+
+#next, #prev
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px 3px 3px 3px;
+    user-select: none;
+}
+
+#next
+{
+    right: -50%;
+}
+
+#prev
+{
+    left: -50%;
+}
+
+#prev:hover, #next:hover
+{
+    background-color: rgba(150,150,150,0.8);
+}
+
+.carousel_item
+{
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.carousel_item:hover
+{
+    background-color: rgb(100, 100, 100);
+}
+
 .text
 {
     font-size: 16px;
