@@ -7,10 +7,10 @@
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/mainDesktop.css">
     <title>My WebSite</title>
 </head>
-<body onload="update()">
+<body onload="update();">
 
     <div id="main_show">
-        <h1 class="text" id="Selected_City"></h1>
+        <h1 class="text_main" id="Selected_City"></h1>
         <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="weatherImg" id="main_img">
 
         <p class="text_main" id="temperature"></p>
@@ -19,11 +19,12 @@
         <p class="text" id="wind"></p>
     </div>
 
-    <div id="Selector_div">
-        <select name="citySelector" id="Selector" onchange="selectorChanged(document.getElementById('Selector').value)"></select>
+    <div id="carousel_main">
+        <a id="prev" onclick="draw(-1);">&#10094;</a>
+        <a id="next" onclick="draw(1);">&#10095;</a>
     </div>
 
-    <script src="js/citySelector.js"></script>
+    <script src="js/decleration.js"></script>
     <script src="js/dataFetcher.js"></script>
     <script src="js/Main.js"></script>
 </body>
