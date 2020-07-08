@@ -1,0 +1,186 @@
+<body>
+    
+   <header id="main-header">
+
+    <div class="div-icon">
+        <i class="fa fa-sun-o" id="sun-font" aria-hidden="true"></i>
+         <h3 id="sun-h3">GeoWeather</h3>
+     
+     </div>
+   
+<div class="div-link"> 
+<a class="anim-a" href="">
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+        მთავარი
+
+
+
+    </a>
+
+    <a class="anim-a" href="">
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+       ამინდის პროგნოზი
+
+    </a>
+     
+    <a class="anim-a" href="">
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+          ქალაქები
+
+
+
+    </a>
+
+    <a class="anim-a" href="">
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+          ვალუტის კურსი
+
+
+
+    </a>
+
+    <a class="anim-a" href="">
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+        <span class="anim"></span>
+          ვიდეოები
+
+
+
+    </a>
+
+    
+
+</div>
+
+</header>
+
+<div class="main-search-drop">
+<div class="search-box">
+<input  class="search-text"    type="text" name="" placeholder="Type to Search">
+<a  class="search-btn"  href="">
+    <i class="fa fa-search" aria-hidden="true"></i>
+</a>
+
+
+
+</div>
+<nav>
+<div class="main-dropdown">
+  <ul >
+   <li class="contact-li"><a href="">ქალაქის არჩევა</a>
+    <ul>
+        <li><a href="">თბილისი</a></li>
+        <li><a href="">ბათუმი</a></li>
+        <li><a href="">ქუთაისი</a></li>
+        <li><a href="">რუსთავი</a></li>
+        <li><a href="">გორი</a></li>
+
+
+    </ul>
+
+
+</li>
+   <li class="contact-li"><a href="">გასართობი საიტები</a>
+    <ul>
+        <li><a href="">თბილისი</a></li>
+        <li><a href="">ბათუმი</a></li>
+        <li><a href="">ქუთაისი</a></li>
+        <li><a href="">რუსთავი</a></li>
+        <li><a href="">გორი</a></li>
+
+
+    </ul>
+
+
+
+</li>
+   <li id="contact-li"><a href="">კონტაქტი</a>
+    <ul >
+        <li><a href="">მისამართი</a></li>
+        <li><a href="">რუკა</a></li>
+        
+
+
+    </ul>
+
+
+
+
+</li>
+
+
+  </ul>
+</div>
+</nav>
+
+</div>
+
+<footer class="main-footer">
+
+<div class="middle">
+<a class="social" href="">
+    
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+
+
+</a>
+
+<a class="social" href="">
+    
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+</a>
+<a class="social" href="">
+    
+    <i class="fa fa-google" aria-hidden="true"></i>
+
+
+</a>
+<a class="social" href="">
+    
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+
+
+</a>
+<a class="social" href="">
+    
+    <i class="fa fa-youtube" aria-hidden="true"></i>
+
+
+</a>
+
+</div>
+
+
+<div class="footer-bottom">
+<h3 class="bottom-1">Home</h3>
+<h3 class="bottom-2">Contact us</h3>
+</div>
+
+<div class="some">
+
+</div>
+
+<div class="any">
+<p>Copyright<img src="https://live.staticflickr.com/7049/6837178052_2e0abf2843_z.jpg" alt="">2020 Geoweather.ge --- All Rights Reserved.</p>
+</div>
+</footer>
+
+
+
+    <script  src="index.js" ></script>

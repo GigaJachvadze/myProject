@@ -3,7 +3,7 @@ let unit = "units=metric";
 
 let mainJson;
 
-function GET_Data(cityName)
+function GET_DATA(cityName)
 {
     let Client = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&" + unit + "&appid=" + apiKey;
 

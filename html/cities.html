@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Modak&display=swap">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mainMobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/mainDesktop.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/city.css">
     <title>Geoweather</title>
 </head>
 <body onload="main();">
@@ -22,7 +21,7 @@
 
         <div class="div-link">
 
-            <a class="anim-a" href="index.html">
+            <a class="anim-a" href="../index.html">
                 <span class="anim"></span>
                 <span class="anim"></span>
                 <span class="anim"></span>
@@ -30,7 +29,7 @@
                 ამინდის პროგნოზი
             </a>
 
-            <a class="anim-a" href="html/cities.html">
+            <a class="anim-a" href="cities.html">
                 <span class="anim"></span>
                 <span class="anim"></span>
                 <span class="anim"></span>
@@ -44,20 +43,7 @@
 
 <div class="main-search-drop">
 
-    <div id="main_show">
-        <h1 class="text_main" id="Selected_City"></h1>
-        <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="weatherImg" id="main_img">
-
-        <p class="text_main" id="temperature"></p>
-        <p class="text" id="humidity"></p>
-        <p class="text" id="pressure"></p>
-        <p class="text" id="wind"></p>
-    </div>
-
-    <div id="carousel_main">
-        <a id="prev" onclick="pageChange(-1);">&#10094;</a>
-        <a id="next" onclick="pageChange(1);">&#10095;</a>
-    </div>
+    <p id="main_Text">საიტის ეს ვერსია ასაფორთებს ჩამოთვლილ ქალაქებს: <strong>თბილისი</strong>, <strong>ბათუმი</strong>, <strong>ქუთაისი</strong>, <strong>რუსთავი</strong>, <strong>გორი</strong>, <strong>ზუგდიდი</strong>, <strong>ფოთი</strong>, <strong>ხაშური</strong>, <strong>სამტრედია</strong>, <strong>სენაკი</strong>.</p>
 
 </div>
 
@@ -97,8 +83,5 @@
     </div>
 
 </footer>
-<script src="js/decleration.js"></script>
-<script src="js/dataFetcher.js"></script>
-<script src="js/Main.js"></script>
 </body>
 </html>

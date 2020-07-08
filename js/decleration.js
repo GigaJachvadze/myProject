@@ -1,20 +1,20 @@
-let cities = ["Tbilisi", "Batumi", "Kutaisi", "Rustavi", "Gori", "Zugdidi", "Poti", "Khashuri", "Samtredia", "Senaki"];
-let cityH = document.getElementById("Selected_City");
+const cities = ["Tbilisi", "Batumi", "Kutaisi", "Rustavi", "Gori", "Zugdidi", "Poti", "Khashuri", "Samtredia", "Senaki"];
+const cityH = document.getElementById("Selected_City");
 
-let tempH = document.getElementById("temperature");
-let humH = document.getElementById("humidity");
-let presH = document.getElementById("pressure");
-let windH = document.getElementById("wind");
-let img = document.getElementById("main_img");
+const tempH = document.getElementById("temperature");
+const humH = document.getElementById("humidity");
+const presH = document.getElementById("pressure");
+const windH = document.getElementById("wind");
+const img = document.getElementById("main_img");
 
-//slideShow
-let pages;
-
-let divsOnOnePage = 3;
-let mainSelected = 0;
-let currentPage = 0;
-
+//for main
+let Data = [];
 let slides = [];
-let slidesShown = [];
-let slideShownIndex = [];
+let slidesOnPage = [];
 let citiesWithoutMain = [];
+
+let currentPage = 0;
+let selected = 0;
+const maxslidesInOnePage = 3;
+
+let maxPage;
