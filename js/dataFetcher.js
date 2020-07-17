@@ -1,5 +1,5 @@
-let apiKey = "e5a5658899eeb74364a64621ced3af51";
-let unit = "units=metric";
+const apiKey = "e5a5658899eeb74364a64621ced3af51";
+const unit = "units=metric";
 
 let mainJson;
 
@@ -14,7 +14,7 @@ async function aFetch(url)
 {
     const data = await fetch(url);
 
-    if (data.ok) 
+    if (data.ok)
     {
         return await data.json();
     }
